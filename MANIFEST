@@ -1,0 +1,10 @@
+Build.PL
+Changes
+Makefile.PL
+MANIFEST
+META.yml
+README
+eg/sample.pl
+t/CPAN-YACSmoke-Plugin-Phalanx100.t
+lib/CPAN/YACSmoke/Plugin/Phalanx100.pm
+SIGNATURE    Added here by Module::Build

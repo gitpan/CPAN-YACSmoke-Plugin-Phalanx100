@@ -1,0 +1,19 @@
+--- #YAML:1.0
+name: CPAN-YACSmoke-Plugin-Phalanx100
+version: 0.01
+author:
+  - Robert Rothenberg <rrwo at cpan.org>
+abstract: ~
+license: perl
+requires:
+  CPAN::YACSmoke: 0.03
+  CPANPLUS::Backend: 0
+  Module::Phalanx100: 0.03
+  perl: 5.6.1
+build_requires:
+  Test::More: 0
+provides:
+  CPAN::YACSmoke::Plugin::Phalanx100:
+    file: lib/CPAN/YACSmoke/Plugin/Phalanx100.pm
+    version: 0.01
+generated_by: Module::Build version 0.2607

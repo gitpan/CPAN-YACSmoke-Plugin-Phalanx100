@@ -1,0 +1,32 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.44.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 adade5f7515a1649207f36b719259d7e9639d926 Build.PL
+SHA1 707e62bf641a3a3b89c499ee427324a387d10979 Changes
+SHA1 3816eadbe682b73d26cf222d78c073264a39a9b7 MANIFEST
+SHA1 8460bf58929a18b74d299a0988693e990230e47c META.yml
+SHA1 5dace16d9b17fb5405f69b56222c1606d2e5f573 Makefile.PL
+SHA1 f0b1e43849e552e110026ba92de73969b6f770c4 README
+SHA1 400e585bd3a60c092eabf7f73dcbd3ba1bffa782 eg/sample.pl
+SHA1 86c84bcb2feea0465b5f5d90b1d95ae6254a4382 lib/CPAN/YACSmoke/Plugin/Phalanx100.pm
+SHA1 bf9168ace38cd224ff0c6e2baf01b27bbde565e5 t/CPAN-YACSmoke-Plugin-Phalanx100.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.5 (MingW32)
+
+iD8DBQFCQG+4V485gMKcmRARApZDAKC9fzg/98bcU5O13AUQYbLh4hK7hgCdFt/f
+Q/i5qHg5OovBhHAEy4b5Hnk=
+=y0fC
+-----END PGP SIGNATURE-----

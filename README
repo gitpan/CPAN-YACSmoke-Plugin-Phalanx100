@@ -1,0 +1,45 @@
+NAME
+      CPAN::YACSmoke::Plugin::Phalanx100 - Test Phalanx 100 list in CPAN::YACSmoke
+
+SYNOPSIS
+      use CPAN::YACSmoke;
+      my $config = {
+          list_from        => 'Phalanx100', 
+      };
+      my $foo = CPAN::YACSmoke->new(config => $config);
+      my @list = $foo->download_list();
+
+DESCRIPTION
+    This module provides the backend ability to test modules from the
+    Phalanx 100 list.
+
+    This module should be used together with CPAN::YACSmoke.
+
+CONSTRUCTOR
+    new()
+        Creates the plugin object.
+
+METHODS
+    download_list()
+        Return the list of distributions recorded in the latest RECENT file.
+
+CAVEATS
+    This is a proto-type release. Use with caution and supervision.
+
+AUTHOR
+    Robert Rothenberg <rrwo at cpan.org>
+
+  Suggestions and Bug Reporting
+    Please submit suggestions and report bugs to the CPAN Bug Tracker at
+    <http://rt.cpan.org>.
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2005 by Robert Rothenberg. All Rights Reserved.
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.3 or, at
+    your option, any later version of Perl 5 you may have available.
+
+SEE ALSO
+      Module::Phalanx100
+
