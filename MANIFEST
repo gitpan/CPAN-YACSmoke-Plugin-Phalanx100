@@ -6,5 +6,7 @@ META.yml
 README
 eg/sample.pl
 t/CPAN-YACSmoke-Plugin-Phalanx100.t
+t/pod-coverage.t
+t/pod.t
 lib/CPAN/YACSmoke/Plugin/Phalanx100.pm
 SIGNATURE    Added here by Module::Build

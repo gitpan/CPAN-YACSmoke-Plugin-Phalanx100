@@ -7,7 +7,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'CPAN::YACSmoke' => '0.03',
                            'CPANPLUS::Backend' => '0',
-                           'Module::Phalanx100' => '0.03',
+                           'Module::Phalanx100' => '0.04',
                            'Test::More' => '0'
                          },
           'INSTALLDIRS' => 'site',

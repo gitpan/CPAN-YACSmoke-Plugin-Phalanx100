@@ -8,9 +8,11 @@ my $build = Module::Build->new
        'perl'                       => '5.6.1',
        'CPAN::YACSmoke'             => 0.03,
        'CPANPLUS::Backend'          => 0,
-       'Module::Phalanx100'         => 0.03,
+       'Module::Phalanx100'         => 0.04,
      },
      recommends => {
+       'Test::Pod'                  => 1.00,
+       'Test::Pod::Coverage'        => 0,
      },
      build_requires => {
        'Test::More'                 => 0,
